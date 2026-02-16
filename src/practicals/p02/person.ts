@@ -5,7 +5,7 @@ export class Person {
     static COUNTRY: string = 'Thailand';
 
     getFullName() {
-        console.log(this.firstname + this.lastname);
+        console.log(`${this.firstname} ${this.lastname}`);
     }
 
     setAge(x: number) {
@@ -13,7 +13,7 @@ export class Person {
     }
 
     getAge() {
-        console.log(this.age);
+        console.log(`${this.age}`);
     }
 
 }
