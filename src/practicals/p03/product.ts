@@ -1,2 +1,5 @@
-export class Product {}
+export class Product {
+    readonly name: string = 'Unknown';
+    
+}
 

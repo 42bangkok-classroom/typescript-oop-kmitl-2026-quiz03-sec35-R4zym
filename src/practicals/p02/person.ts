@@ -13,7 +13,7 @@ export class Person {
     }
 
     getAge() {
-        console.log(`${this.age}`);
+        return this.age;
     }
 
 }
